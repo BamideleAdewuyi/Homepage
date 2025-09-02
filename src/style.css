@@ -8,3 +8,21 @@ section {
     padding-top: clamp(3.75rem, 8vw, 6.25rem);
     padding-bottom: clamp(3.75rem, 8vw, 6.25rem);
 }
+
+@media (max-width: 500px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+@media (500px < width < 1024px) {
+    img {
+        max-width: 20rem;
+    }
+}
+
+@media (width >= 1024px) {
+    img {
+        max-width: 30rem;
+    }
+}
