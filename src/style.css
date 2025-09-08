@@ -1,28 +1,16 @@
 * {
     outline: 1px solid red;
+    padding: 0;
+    margin: 0;
 }
 
-section {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: clamp(3.75rem, 8vw, 6.25rem);
-    padding-bottom: clamp(3.75rem, 8vw, 6.25rem);
+img {
+    width: 100%;
 }
 
-@media (max-width: 500px) {
-    img {
-        max-width: 100%;
-    }
-}
-
-@media (500px < width < 1024px) {
-    img {
-        max-width: 20rem;
-    }
-}
-
-@media (width >= 1024px) {
-    img {
-        max-width: 30rem;
-    }
+body {
+  width: 100vw;
+  height: 100vh;
+  background: 
+  linear-gradient(150deg, rgb(26, 159, 221) 25rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 25.5rem);
 }
