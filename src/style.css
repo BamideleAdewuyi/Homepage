@@ -4,13 +4,13 @@
     margin: 0;
 }
 
-img {
-    width: 100%;
+body {
+    width: 100vw;
+    height: 100vh;
+    background: 
+    linear-gradient(150deg, rgb(26, 159, 221) 25rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 25.5rem);
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  background: 
-  linear-gradient(150deg, rgb(26, 159, 221) 25rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 25.5rem);
+.cook {
+    width: 25rem;
 }
