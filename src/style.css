@@ -4,6 +4,16 @@
     margin: 0;
 }
 
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('Fonts/Playfair_Display,Roboto/Roboto/static/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Regular";
+  src: url("Fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+}
+
 body {
     width: 100vw;
     height: 100vh;
