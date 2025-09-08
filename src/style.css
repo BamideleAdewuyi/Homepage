@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     padding: 0;
     margin: 0;
 }
@@ -12,5 +12,10 @@ body {
 }
 
 .cook {
-    width: 25rem;
+    width: 22rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
