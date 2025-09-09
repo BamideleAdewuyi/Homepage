@@ -58,4 +58,8 @@ h2 {
 .bio {
     font-family: 'Roboto-Regular';
     color: rgb(114, 114, 114);
+    width: 17rem;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    line-height: 1.7rem;
 }
