@@ -36,12 +36,15 @@ body {
     align-items: center;
 }
 
-h1 {
+h1, h2 {
     font-family: 'PlayfairDisplay-Regular';
+    font-weight: lighter;
+}
+
+h1 {
     color: white;
     position: fixed;
     font-size: 5rem;
     top: 22rem;
     left: 3rem;
-    font-weight: lighter;
 }
