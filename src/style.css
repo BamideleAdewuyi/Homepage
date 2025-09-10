@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     padding: 0;
     margin: 0;
 }
@@ -67,3 +67,6 @@ h2 {
     line-height: 1.7rem;
 }
 
+.headerIcons {
+    height: 2rem;
+}
