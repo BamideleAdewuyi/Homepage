@@ -63,3 +63,7 @@ h2 {
     font-weight: lighter;
     line-height: 1.7rem;
 }
+
+.devicon-linkedin-plain {
+    filter: invert(100%) brightness(0%)
+}
