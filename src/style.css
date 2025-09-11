@@ -16,7 +16,7 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
     background: 
     linear-gradient(155deg, rgb(26, 159, 221) 20rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 20.5rem);
 }
@@ -56,10 +56,13 @@ h1 {
     left: 3rem;
 }
 
+h2, h3 {
+    font-size: 2rem;
+}
+
 h2 {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    font-size: 2rem;
 }
 
 .bio {
