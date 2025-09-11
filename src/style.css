@@ -87,3 +87,11 @@ h2 {
     width: 17rem;
     height: 25rem;
 }
+
+.projectScreenshot {
+    height: 15rem;
+}
+
+.projectScreenshot.one{
+    background-color: rgb(152, 118, 232);
+}
