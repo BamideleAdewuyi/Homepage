@@ -67,6 +67,7 @@ h2 {
     line-height: 1.7rem;
 }
 
-.headerIcons {
+.headerIcon {
     height: 2rem;
+    margin: 0.4rem;
 }
