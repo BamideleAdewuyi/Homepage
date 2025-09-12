@@ -172,3 +172,7 @@ h5 {
 .footerImage {
     width: 100vw;
 }
+
+#sectionThree {
+    background-color: rgb(26, 159, 221);
+}
