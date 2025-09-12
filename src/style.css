@@ -168,3 +168,7 @@ h5 {
 .projectIcon {
     max-width: 1.5rem;
 }
+
+.footerImage {
+    width: 100vw;
+}
