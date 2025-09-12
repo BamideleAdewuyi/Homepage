@@ -34,7 +34,7 @@ body {
     margin-top: 5rem;
 }
 
-.container, .headerIcons, .projectScreenshot {
+.container, .headerIcons, .projectScreenshot, .projectHeader {
     display: flex;
 }
 
