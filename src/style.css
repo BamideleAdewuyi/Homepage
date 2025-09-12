@@ -118,6 +118,26 @@ h5 {
     background-color: rgb(152, 118, 232);
 }
 
+.projectScreenshot.two{
+    background-color: rgb(232, 151, 30);
+}
+
+.projectScreenshot.three{
+    background-color: rgb(87, 159, 82);
+}
+
+.projectScreenshot.four{
+    background-color: rgb(204, 114, 216);
+}
+
+.projectScreenshot.five{
+    background-color: rgb(41, 66, 225);
+}
+
+.projectScreenshot.six{
+    background-color: rgb(36, 104, 25);
+}
+
 .projectInfo, .projectHeader {
     width: 100%;
 }
