@@ -95,6 +95,10 @@ h5 {
     line-height: 1.7rem;
 }
 
+.projectDescription {
+    margin: 1rem;
+}
+
 .headerIcon {
     height: 2rem;
     margin: 0.4rem;
