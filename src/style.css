@@ -48,8 +48,11 @@ h1, h2, h3, h4 {
     font-weight: lighter;
 }
 
-h1 {
+h1, h4 {
     color: white;
+}
+
+h1 {
     position: absolute;
     font-size: 3rem;
     top: 15rem;
