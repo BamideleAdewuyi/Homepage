@@ -33,7 +33,7 @@ body {
     margin-top: 5rem;
 }
 
-.container, .headerIcons, .projectScreenshot, .projectHeader, .projectIcons, .projectIcons {
+.container, .headerIcons, .projectScreenshot, .projectHeader, .projectIcons, .projectIcons, .contactIcons {
     display: flex;
 }
 
