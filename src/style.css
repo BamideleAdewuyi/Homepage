@@ -45,7 +45,7 @@ body {
     align-items: center;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'PlayfairDisplay-Regular';
     font-weight: lighter;
 }
@@ -61,7 +61,7 @@ h1 {
     left: 3rem;
 }
 
-h2, h3 {
+h2, h3, h6 {
     font-size: 2rem;
 }
 
