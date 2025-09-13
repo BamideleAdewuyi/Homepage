@@ -83,8 +83,11 @@ h5 {
     font-size: 1.2rem;
 }
 
-.bio, .projectDescription {
+.contactRequest, .contactInfo, .bio, .projectDescription {
     font-family: 'Roboto-Regular';
+}
+
+.bio, .projectDescription {
     color: rgb(114, 114, 114);
 }
 
