@@ -33,11 +33,11 @@ body {
     margin-top: 5rem;
 }
 
-.container, .headerIcons, .projectScreenshot, .projectHeader, .projectIcons, .projectIcons, .contactIcons {
+.container, .headerIcons, .projectScreenshot, .projectHeader, .projectIcons, .projectIcons, .contact, .contactIcons {
     display: flex;
 }
 
-.container {
+.container, .contact {
     flex-direction: column;
 }
 
