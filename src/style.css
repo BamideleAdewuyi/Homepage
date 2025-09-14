@@ -196,5 +196,12 @@ h5 {
 
 .contactRequest, .contactInfo {
     margin-left: 1rem;
+}
+
+.contactRequest, .contactInfo, .phoneNumber {
     margin-top: 1rem;
+}
+
+.phoneNumber {
+    margin-bottom: 0.5rem;
 }
