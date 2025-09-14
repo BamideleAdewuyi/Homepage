@@ -108,7 +108,14 @@ h5 {
 
 .headerIcon, .contactIcon {
     height: 2rem;
+}
+
+.headerIcon {
     margin: 0.4rem;
+}
+
+.contactIcon {
+    margin: 0.7rem;
 }
 
 .project {
