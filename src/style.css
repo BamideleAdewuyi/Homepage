@@ -193,3 +193,7 @@ h5 {
 #sectionThree {
     background-color: rgb(26, 159, 221);
 }
+
+.contactRequest, .contactInfo {
+    margin-left: 1rem;
+}
