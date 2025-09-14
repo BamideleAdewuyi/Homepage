@@ -124,9 +124,12 @@ h5 {
     margin-bottom: 3rem;
 }
 
+.projectScreenshot, h6 {
+    text-align: center;
+}
+
 .projectScreenshot {
     height: 15rem;
-    text-align: center;
 }
 
 .projectScreenshot.one{
