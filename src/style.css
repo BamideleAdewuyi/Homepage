@@ -13,6 +13,10 @@
   src: url("Fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
 }
 
+@media screen {
+    
+}
+
 body {
     max-width: 100vw;
     height: 450vh;
