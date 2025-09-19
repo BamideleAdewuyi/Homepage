@@ -42,10 +42,6 @@
     justify-content: center;
 }
 
-h1 {
-    max-width: 15rem;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'PlayfairDisplay-Regular';
     font-weight: lighter;
@@ -72,6 +68,7 @@ h1 {
 
     h1 {
         position: absolute;
+        max-width: 15rem;
     }
 }
 
