@@ -13,6 +13,49 @@
   src: url("Fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
 }
 
+@media (max-width: 425px) {
+    body {
+        background: 
+        linear-gradient(155deg, rgb(26, 159, 221) 20rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 20.5rem);
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    h1 {
+        position: absolute;
+        max-width: 15rem;
+        top: 15rem;
+    }
+}
+
+@media (425px < width) {
+    body {
+        background: 
+        linear-gradient(165deg, rgb(26, 159, 221) 25rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 25.5rem);
+    }
+
+    .about {
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0rem 0.5rem 1rem rgb(148, 148, 148);
+        display: flex;
+        margin-top: 2rem;
+    }
+    
+    .headerIcon {
+        visibility: collapse;
+    }
+
+    #sectionOne > .container {
+        flex-direction: column;
+    }
+
+    h1 {
+        position: absolute;
+    }
+}
+
 .cook {
     max-width: 15rem;
     box-shadow: 0rem 0.5rem 1rem rgb(148, 148, 148);
@@ -53,45 +96,6 @@ h1, h4, #sectionThree {
 
 h1 {
     font-size: 3rem;
-}
-
-@media (max-width: 425px) {
-    body {
-        background: 
-        linear-gradient(155deg, rgb(26, 159, 221) 20rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 20.5rem);
-    }
-
-    .container {
-        flex-direction: column;
-    }
-
-    h1 {
-        position: absolute;
-        max-width: 15rem;
-        top: 15rem;
-    }
-}
-
-@media (425px < width) {
-    body {
-        background: 
-        linear-gradient(165deg, rgb(26, 159, 221) 25rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 25.5rem);
-    }
-
-    .about {
-        background-color: rgb(255, 255, 255);
-        box-shadow: 0rem 0.5rem 1rem rgb(148, 148, 148);
-        display: flex;
-        margin-top: 2rem;
-    }
-
-    .headerIcon {
-        visibility: collapse;
-    }
-
-    #sectionOne > .container {
-        flex-direction: column;
-    }
 }
 
 h2, h3, h6 {
