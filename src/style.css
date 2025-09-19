@@ -77,6 +77,10 @@ h1 {
         background: 
         linear-gradient(165deg, rgb(26, 159, 221) 25rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 25.5rem);
     }
+
+    .about {
+        background-color: rgb(255, 255, 255);
+    }
 }
 
 h2, h3, h6 {
