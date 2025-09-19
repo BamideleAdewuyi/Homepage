@@ -56,7 +56,6 @@ h1, h4, #sectionThree {
 }
 
 h1 {
-    position: absolute;
     font-size: 3rem;
     top: 15rem;
 }
@@ -69,6 +68,10 @@ h1 {
 
     .container {
         flex-direction: column;
+    }
+
+    h1 {
+        position: absolute;
     }
 }
 
@@ -87,6 +90,10 @@ h1 {
 
     .headerIcon {
         visibility: collapse;
+    }
+
+    #sectionOne > .container {
+        flex-direction: column;
     }
 }
 
