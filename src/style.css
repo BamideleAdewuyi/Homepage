@@ -82,6 +82,7 @@ h1 {
         background-color: rgb(255, 255, 255);
         box-shadow: 0rem 0.5rem 1rem rgb(148, 148, 148);
         display: flex;
+        margin-top: 2rem;
     }
 
     .headerIcon {
