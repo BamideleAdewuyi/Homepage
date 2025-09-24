@@ -49,6 +49,10 @@
     .footerImage {
         max-width: 100vw;
     }
+
+    .contactIcons {
+        justify-content: center;
+    }
     
 }
 
@@ -129,6 +133,16 @@
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
+
+    .contactIcons {
+        margin-left: 1.5rem;
+        justify-content: left;
+    }
+
+    .contactTitle {
+        text-align: left;
+        margin-left: 2rem;
+    }
 }
 
 .cook {
@@ -155,7 +169,7 @@
     align-items: center;
 }
 
-.contactIcons, .headerIcons {
+.headerIcons {
     justify-content: center;
 }
 
