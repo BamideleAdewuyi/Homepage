@@ -32,6 +32,16 @@
     .bio {
         max-width: 17rem;
     }
+
+    .cookContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cook {
+         max-width: 15rem;
+    }
+    
 }
 
 @media (425px < width) {
@@ -42,8 +52,7 @@
 
     .about {
         background-color: rgb(255, 255, 255);
-        /* display: flex; */
-        width: 30rem;
+        max-width: 35rem;
         margin-top: 2rem;
         background-color: transparent;
     }
@@ -52,44 +61,49 @@
         visibility: collapse;
     }
 
-    #sectionOne > .container {
+    #sectionOne > .container, #sectionTwo > .container {
         flex-direction: column;
+    }
+
+    .projectContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     h1 {
         position: absolute;
+        top: 4rem;
+        left: 20rem;
     }
 
     h2 {
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
 
     .cook {
-        /* width: 30rem; */
-        /* height: 15rem; */
-        justify-self: left;
+        max-width: 17rem;
         float: left;
         margin-right: 2rem;
         margin-bottom: 1rem;
     }
 
     .bioContainer { 
-        justify-self: center;
         margin-top: 5rem;
         margin-left: 3rem;
         height: 30rem;
-        box-shadow: 0rem 0.5rem 1rem rgb(148, 148, 148);
+        box-shadow: 0rem 0.1rem 0.3rem rgb(148, 148, 148);
         background-color: rgb(255, 255, 255);
     }
 
     .bio {
-        margin-left: 3rem;
+        padding-right: 1rem;
+        padding-left: 2rem;
     }
     
 }
 
 .cook {
-    max-width: 15rem;
     box-shadow: 0rem 0.5rem 1rem rgb(148, 148, 148);
 }
 
