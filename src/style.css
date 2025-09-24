@@ -53,6 +53,11 @@
     .contactIcons {
         justify-content: center;
     }
+
+    .phoneAndEmail {
+        visibility: collapse;
+        width: 0;
+    }
     
 }
 
