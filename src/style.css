@@ -329,3 +329,8 @@ h5 {
 .phoneNumber {
     margin-bottom: 0.5rem;
 }
+
+.phoneAndEmail {
+    filter: invert(1);
+    max-width: 1.5rem;
+}
