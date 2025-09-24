@@ -119,6 +119,16 @@
         align-self: baseline;
         margin-left: 6rem;
     }
+
+    .footerImage {
+        max-width: 20rem;
+        margin-right: 1rem;
+    }
+
+    #sectionThree {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
 }
 
 .cook {
