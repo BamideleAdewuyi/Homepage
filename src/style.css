@@ -206,7 +206,9 @@
 }
 
 @media (1024px <= width) {
-    
+    .about {
+        max-width: 58rem;
+    }
 }
 
 .cook {
