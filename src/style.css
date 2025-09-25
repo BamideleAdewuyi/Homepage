@@ -157,6 +157,10 @@
     }
 }
 
+@media (1024px <= width) {
+    
+}
+
 .cook {
     box-shadow: 0rem 0.5rem 1rem rgb(148, 148, 148);
 }
