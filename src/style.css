@@ -46,6 +46,30 @@
         margin-bottom: 1.5rem;
     }
 
+    .projectScreenshot.one{
+        background-color: rgb(152, 118, 232);
+    }
+
+    .projectScreenshot.two{
+        background-color: rgb(232, 151, 30);
+    }
+
+    .projectScreenshot.three{
+        background-color: rgb(87, 159, 82);
+    }
+
+    .projectScreenshot.four{
+        background-color: rgb(204, 114, 216);
+    }
+
+    .projectScreenshot.five{
+        background-color: rgb(41, 66, 225);
+    }
+
+    .projectScreenshot.six{
+        background-color: rgb(36, 104, 25);
+    }
+
     .footerImage {
         max-width: 100vw;
     }
@@ -126,6 +150,30 @@
     h3 {
         align-self: baseline;
         margin-left: 6rem;
+    }
+
+    .projectScreenshot.one{
+        background-color: rgb(175, 44, 40);
+    }
+
+    .projectScreenshot.two{
+        background-color: rgb(155, 108, 200);
+    }
+
+    .projectScreenshot.three{
+        background-color: rgb(190, 84, 184);
+    }
+
+    .projectScreenshot.four{
+        background-color: rgb(222, 126, 75);
+    }
+
+    .projectScreenshot.five{
+        background-color: rgb(140, 83, 190);
+    }
+
+    .projectScreenshot.six{
+        background-color: rgb(36, 104, 25);
     }
 
     .footerImage {
@@ -269,30 +317,6 @@ h5 {
 
 .projectScreenshot {
     height: 15rem;
-}
-
-.projectScreenshot.one{
-    background-color: rgb(152, 118, 232);
-}
-
-.projectScreenshot.two{
-    background-color: rgb(232, 151, 30);
-}
-
-.projectScreenshot.three{
-    background-color: rgb(87, 159, 82);
-}
-
-.projectScreenshot.four{
-    background-color: rgb(204, 114, 216);
-}
-
-.projectScreenshot.five{
-    background-color: rgb(41, 66, 225);
-}
-
-.projectScreenshot.six{
-    background-color: rgb(36, 104, 25);
 }
 
 .projectInfo, .projectHeader {
