@@ -54,9 +54,8 @@
         justify-content: center;
     }
 
-    .phoneAndEmail {
-        visibility: collapse;
-        width: 0;
+    .phoneAndEmailIcon {
+        display: none;
     }
     
 }
@@ -170,11 +169,15 @@
     margin-top: 5rem;
 }
 
-.container, .headerIcons, .projectScreenshot, .projectHeader, .projectIcons, .projectIcons, .contact, .contactIcons {
+.container, .headerIcons, 
+.projectScreenshot, .projectHeader, 
+.projectIcons, .projectIcons, 
+.contact, .contactIcons, .phoneAndEmailContainer, 
+.phoneAndEmail, .phoneAndEmailIcons {
     display: flex;
 }
 
-.contact {
+.contact, .phoneAndEmailIcons, .phoneAndEmail {
     flex-direction: column;
 }
 
@@ -327,7 +330,7 @@ h5 {
     margin-right: 1rem;
 }
 
-.contactRequest, .contactInfo, .phoneNumber {
+.contactRequest, .contactInfo, .phoneAndEmailContainer {
     margin-top: 1rem;
 }
 
@@ -335,7 +338,8 @@ h5 {
     margin-bottom: 0.5rem;
 }
 
-.phoneAndEmail {
+.phoneAndEmailIcon {
     filter: invert(1);
-    max-width: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
 }
