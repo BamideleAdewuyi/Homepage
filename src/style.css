@@ -81,6 +81,10 @@
     .phoneAndEmailIcon {
         display: none;
     }
+
+    .headerIcons {
+        justify-content: center;
+    }
     
 }
 
@@ -211,8 +215,12 @@
         max-width: 58rem;
     }
 
+    .headerIcons {
+        justify-content: end;
+    }
+
     .headerIcon {
-        display: flex;
+        display: block;
     }
 }
 
@@ -242,10 +250,6 @@
 
 .container, .projectScreenshot {
     align-items: center;
-}
-
-.headerIcons {
-    justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
