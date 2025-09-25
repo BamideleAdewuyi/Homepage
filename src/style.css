@@ -98,7 +98,7 @@
     }
     
     .headerIcon {
-        visibility: collapse;
+        display: none;
     }
 
     #sectionOne > .container, #sectionTwo > .container {
@@ -208,6 +208,10 @@
 @media (1024px <= width) {
     .about {
         max-width: 58rem;
+    }
+
+    .headerIcon {
+        display: flex;
     }
 }
 
