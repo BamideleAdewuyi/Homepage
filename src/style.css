@@ -222,6 +222,15 @@
     .headerIcon {
         display: block;
     }
+
+    .bioContainer {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    h2 {
+        padding-top: 0;
+    }
 }
 
 .cook {
