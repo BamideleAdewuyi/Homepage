@@ -81,6 +81,9 @@
         justify-content: center;
     }
     
+    #sectionTwo > .container {
+        align-items: center;
+    }
 }
 
 @media (425px < width) {
@@ -101,7 +104,6 @@
         flex-shrink: 0;
         float: left;
         margin-right: 1rem;
-        margin-left: 2rem;
     }
 
     .bioContainer { 
@@ -121,10 +123,19 @@
         flex-direction: column;
     }
 
-    .projectContainer {
+    #sectionOne > .container {
+        align-items: center;
+    }
+
+    #sectionOne, #sectionTwo {
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .projectContainer {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         margin-bottom: 10rem;
     }
 
@@ -150,7 +161,7 @@
 
     h3 {
         align-self: baseline;
-        margin-left: 6rem;
+        margin-left: 1rem;
     }
 
     .projectScreenshot.one{
@@ -242,6 +253,12 @@
         justify-content: baseline;
         padding-top: 2rem;
     }
+
+    .projectContainer {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 2rem;
+    }    
 }
 
 .cook {
@@ -269,7 +286,7 @@
     flex-direction: column;
 }
 
-.container, .projectScreenshot, .bioContainer, 
+.projectScreenshot, .bioContainer, 
 .about {
     align-items: center;
 }
