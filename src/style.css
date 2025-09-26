@@ -19,14 +19,12 @@
         linear-gradient(155deg, rgb(26, 159, 221) 20rem, rgb(212, 212, 212) 0.5rem, rgb(255, 255, 255) 20.5rem);
     }
 
-    .container {
-        flex-direction: column;
+    .about {
+        display: flex;
     }
 
-    h1 {
-        position: absolute;
-        max-width: 15rem;
-        top: 15rem;
+    .container, .about {
+        flex-direction: column;
     }
 
     .bio {
@@ -35,11 +33,8 @@
 
     .cookContainer {
         display: flex;
-        justify-content: center;
-    }
-
-    .cook {
-         max-width: 15rem;
+        width: 15rem;
+        height: 25rem;
     }
 
     h3 {
@@ -95,12 +90,30 @@
     }
 
     .about {
-        background-color: rgb(255, 255, 255);
-        max-width: 35rem;
-        margin-top: 2rem;
+        margin-top: 4rem;
         background-color: transparent;
+        position: relative;
     }
     
+    .cookContainer {
+        width: 17rem;
+        height: 25rem;
+        flex-shrink: 0;
+        float: left;
+        margin-right: 1rem;
+        margin-left: 2rem;
+    }
+
+    .bioContainer { 
+        margin-top: 5rem;
+        margin-left: 3rem;
+        max-height: 30rem;
+        max-width: 35rem;
+        box-shadow: 0rem 0.1rem 0.3rem rgb(148, 148, 148);
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 4rem;
+    }
+
     .headerIcon {
         display: none;
     }
@@ -118,28 +131,12 @@
 
     h1 {
         position: absolute;
-        top: 4rem;
-        left: 20rem;
+        top: 1rem;
+        left: 10rem;
     }
 
     h2 {
         padding-top: 4rem;
-    }
-
-    .cook {
-        max-width: 17rem;
-        float: left;
-        margin-right: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .bioContainer { 
-        margin-top: 5rem;
-        margin-left: 3rem;
-        max-height: 30rem;
-        box-shadow: 0rem 0.1rem 0.3rem rgb(148, 148, 148);
-        background-color: rgb(255, 255, 255);
-        padding-bottom: 4rem;
     }
 
     .bio {
@@ -253,11 +250,13 @@
     display: flex;
 }
 
-.contact, .phoneAndEmailIcons, .phoneAndEmail {
+.contact, .phoneAndEmailIcons, .phoneAndEmail, 
+.bioContainer {
     flex-direction: column;
 }
 
-.container, .projectScreenshot {
+.container, .projectScreenshot, .bioContainer, 
+.about {
     align-items: center;
 }
 
@@ -316,6 +315,14 @@ h5 {
 
 .headerIcon {
     margin: 0.4rem;
+}
+
+.cookContainer {
+    background-image: url("Assets/Photos/Cook.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: end;
 }
 
 .contactIcon {
