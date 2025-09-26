@@ -107,7 +107,6 @@
     .bioContainer { 
         margin-top: 5rem;
         margin-left: 3rem;
-        max-height: 30rem;
         max-width: 35rem;
         box-shadow: 0rem 0.1rem 0.3rem rgb(148, 148, 148);
         background-color: rgb(255, 255, 255);
@@ -223,6 +222,11 @@
     .bioContainer {
         padding-bottom: 0;
         padding-top: 0;
+        max-width: 50rem;
+        margin-top: 3rem;
+        padding-top: 0.2rem;
+        padding-bottom: 1.5rem;
+        padding-right: 2rem;
     }
 
     .cookContainer {
@@ -234,7 +238,9 @@
     }
 
     h2 {
-        padding-top: 0;
+        display: flex;
+        justify-content: baseline;
+        padding-top: 2rem;
     }
 }
 
