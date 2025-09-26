@@ -225,6 +225,14 @@
         padding-top: 0;
     }
 
+    .cookContainer {
+        display: flex;
+    }
+
+    h1 {
+        position: static;
+    }
+
     h2 {
         padding-top: 0;
     }
